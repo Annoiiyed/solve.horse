@@ -4,6 +4,7 @@ import type { CatalogueEntry, Level } from "./types";
 
 export type { CatalogueEntry, Coord, Grid, Level, Terrain } from "./types";
 export { parseGrid } from "./grid";
+export { readLevelParam, writeLevelParam } from "./url";
 
 // Fixtures get negative day numbers so they sort ahead of day 1 in the menu.
 const fixtureCatalogue: readonly CatalogueEntry[] = FIXTURE_LEVELS.map((level, index) => ({

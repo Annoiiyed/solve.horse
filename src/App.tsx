@@ -1,5 +1,13 @@
 import { useEffect, useMemo, useState } from "react";
-import { defaultDate, loadLevel, parseGrid, type Level } from "./levels";
+import {
+  catalogue,
+  defaultDate,
+  loadLevel,
+  parseGrid,
+  readLevelParam,
+  writeLevelParam,
+  type Level,
+} from "./levels";
 import { LevelMenu } from "./ui/LevelMenu";
 import { LevelCanvas } from "./render/LevelCanvas";
 import "./App.css";
@@ -9,10 +17,21 @@ interface LoadError {
   readonly message: string;
 }
 
+/** The initial selection: a valid `?level=` param if present, else day 1. */
+const initialDate = (): string => {
+  const fromUrl = readLevelParam();
+  return fromUrl && catalogue.some((entry) => entry.date === fromUrl) ? fromUrl : defaultDate;
+};
+
 export const App = () => {
-  const [selectedDate, setSelectedDate] = useState(defaultDate);
+  const [selectedDate, setSelectedDate] = useState(initialDate);
   const [level, setLevel] = useState<Level | null>(null);
   const [error, setError] = useState<LoadError | null>(null);
+
+  // Keep the URL in step with the selection (shareable, reload-safe).
+  useEffect(() => {
+    writeLevelParam(selectedDate);
+  }, [selectedDate]);
 
   useEffect(() => {
     let cancelled = false;
