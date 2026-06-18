@@ -1,53 +1,139 @@
-.app {
-  max-width: 640px;
-  margin: 0 auto;
-  padding: 48px 24px;
+.layout {
   display: flex;
-  flex-direction: column;
-  gap: 24px;
-  min-height: 100svh;
-  box-sizing: border-box;
+  height: 100svh;
 }
 
-.app button {
-  align-self: flex-start;
-  font: 500 16px var(--sans);
-  padding: 10px 20px;
-  border-radius: 8px;
-  color: var(--accent);
-  background: var(--accent-bg);
-  border: 1px solid var(--accent-border);
+/* Sidebar */
+.menu {
+  width: 264px;
+  flex: none;
+  box-sizing: border-box;
+  border-right: 1px solid var(--border);
+  overflow-y: auto;
+  padding: 12px;
+}
+
+.menu-title {
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--text);
+  margin: 4px 8px 12px;
+}
+
+.menu-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+}
+
+.menu-item {
+  display: block;
+  width: 100%;
+  text-align: left;
+  background: none;
+  border: none;
+  border-radius: 6px;
+  padding: 7px 10px;
+  font: 14px var(--sans);
+  color: var(--text-h);
   cursor: pointer;
 }
 
-.app button:hover:not(:disabled) {
-  background: var(--accent);
-  color: #fff;
-}
-
-.app button:disabled {
-  opacity: 0.6;
-  cursor: progress;
-}
-
-.app button:focus-visible {
-  outline: 2px solid var(--accent);
-  outline-offset: 2px;
-}
-
-.output {
-  font: 15px/1.6 var(--mono);
-  color: var(--text-h);
+.menu-item:hover {
   background: var(--code-bg);
-  border: 1px solid var(--border);
-  border-radius: 8px;
-  padding: 16px;
-  margin: 0;
-  white-space: pre-wrap;
-  word-break: break-word;
-  min-height: 3lh;
 }
 
-.output--error {
+.menu-item--active {
+  background: var(--accent-bg);
+  color: var(--accent);
+}
+
+.menu-item:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: -2px;
+}
+
+.menu-date {
+  font-family: var(--mono);
+  font-size: 12px;
+  color: var(--text);
+}
+
+.menu-item--active .menu-date {
+  color: var(--accent);
+}
+
+.menu-sep {
+  color: var(--border);
+}
+
+/* Render stage */
+.stage {
+  flex: 1;
+  overflow: auto;
+  padding: 32px;
+}
+
+/* Sized to its widest child (the canvas) and centered. When the board is wider
+   than the stage, `margin: auto` collapses to 0 so it stays scrollable from the
+   start edge rather than being clipped by flex centering. */
+.stage-inner {
+  width: max-content;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.stage-head {
+  text-align: center;
+}
+
+.stage-head h1 {
+  font-size: 28px;
+  margin: 0;
+}
+
+.stage-meta {
+  font-family: var(--mono);
+  font-size: 13px;
+  color: var(--text);
+  margin-top: 6px;
+}
+
+.level-canvas {
+  image-rendering: pixelated;
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  display: block;
+}
+
+.stage-error {
   color: var(--error);
+  font-family: var(--mono);
+}
+
+.stage-loading {
+  color: var(--text);
+}
+
+@media (max-width: 680px) {
+  .layout {
+    flex-direction: column;
+    height: auto;
+    min-height: 100svh;
+  }
+
+  .menu {
+    width: auto;
+    max-height: 38vh;
+    border-right: none;
+    border-bottom: 1px solid var(--border);
+  }
 }

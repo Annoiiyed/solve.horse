@@ -1,57 +1,70 @@
-import { useState } from "react";
-import { runProlog } from "./engine";
-import familyProgram from "./prolog/family.pl?raw";
+import { useEffect, useMemo, useState } from "react";
+import { catalogue, loadLevel, parseGrid, type Level } from "./levels";
+import { LevelMenu } from "./ui/LevelMenu";
+import { LevelCanvas } from "./render/LevelCanvas";
 import "./App.css";
 
-// The program is a real .pl file, inlined at build time via Vite's `?raw`.
-const GOAL = "grandparent(tom, Grandchild)";
+const FIRST_DATE = catalogue[0]?.date ?? "";
 
-type RunState =
-  | { readonly status: "idle" }
-  | { readonly status: "running" }
-  | { readonly status: "done"; readonly output: string }
-  | { readonly status: "error"; readonly output: string };
-
-const displayText = (state: RunState): string => {
-  switch (state.status) {
-    case "idle":
-      return "Press Run to evaluate the script.";
-    case "running":
-      return "Running…";
-    case "done":
-    case "error":
-      return state.output;
-  }
-};
+interface LoadError {
+  readonly date: string;
+  readonly message: string;
+}
 
 export const App = () => {
-  const [state, setState] = useState<RunState>({ status: "idle" });
+  const [selectedDate, setSelectedDate] = useState(FIRST_DATE);
+  const [level, setLevel] = useState<Level | null>(null);
+  const [error, setError] = useState<LoadError | null>(null);
 
-  const run = async () => {
-    setState({ status: "running" });
-    try {
-      const output = await runProlog(familyProgram, GOAL);
-      setState({ status: "done", output });
-    } catch (error) {
-      setState({ status: "error", output: String(error) });
-    }
-  };
+  useEffect(() => {
+    let cancelled = false;
+    loadLevel(selectedDate)
+      .then((loaded) => {
+        if (cancelled) return;
+        setLevel(loaded);
+        setError(null);
+      })
+      .catch((cause: unknown) => {
+        if (!cancelled) setError({ date: selectedDate, message: String(cause) });
+      });
+    return () => {
+      cancelled = true;
+    };
+  }, [selectedDate]);
+
+  const grid = useMemo(() => (level ? parseGrid(level.map) : null), [level]);
+
+  // Derive view state instead of clearing state in the effect: the level is
+  // "ready" only once the loaded date matches the current selection.
+  const ready = level && grid && level.date === selectedDate ? { level, grid } : null;
+  const showError = error?.date === selectedDate ? error : null;
 
   return (
-    <main className="app">
-      <h1>solve.horse</h1>
-
-      <button type="button" onClick={run} disabled={state.status === "running"}>
-        {state.status === "running" ? "Running…" : "Run Prolog"}
-      </button>
-
-      <pre
-        className={`output${state.status === "error" ? " output--error" : ""}`}
-        aria-live="polite"
-        aria-label="Prolog output"
-      >
-        {displayText(state)}
-      </pre>
-    </main>
+    <div className="layout">
+      <LevelMenu selectedDate={selectedDate} onSelect={setSelectedDate} />
+      <main className="stage">
+        <div className="stage-inner">
+          {ready ? (
+            <>
+              <header className="stage-head">
+                <h1>{ready.level.name}</h1>
+                <p className="stage-meta">
+                  {ready.level.date} · {ready.grid.width}×{ready.grid.height} · budget{" "}
+                  {ready.level.budget} · optimal {ready.level.optimalScore}
+                </p>
+              </header>
+              <LevelCanvas
+                grid={ready.grid}
+                label={`${ready.level.name}: ${ready.grid.width} by ${ready.grid.height} level map`}
+              />
+            </>
+          ) : showError ? (
+            <p className="stage-error">{showError.message}</p>
+          ) : (
+            <p className="stage-loading">Loading…</p>
+          )}
+        </div>
+      </main>
+    </div>
   );
 };

@@ -16,6 +16,7 @@
     "jsx": "react-jsx",
 
     /* Type safety */
+    "resolveJsonModule": true,
     "strict": true,
     "noUncheckedIndexedAccess": true,
     "exactOptionalPropertyTypes": true,
