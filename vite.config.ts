@@ -1,7 +1,9 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
+import { defineConfig } from "vite";
+import react from "@vitejs/plugin-react";
 
-// https://vite.dev/config/
-export default defineConfig({
+// Served from https://annoiiyed.github.io/solve.horse/ in production, so assets
+// need the repo-name base. Dev stays at "/" so the local server is unaffected.
+export default defineConfig(({ command }) => ({
+  base: command === "build" ? "/solve.horse/" : "/",
   plugins: [react()],
-})
+}));
