@@ -6,29 +6,23 @@ import type { Level } from "../levels";
 import { cellKey, type WallSet } from "./enclosure";
 
 /**
- * Read a binary-compound term from swipl-wasm's JS representation. A term `1-2`
- * comes back as a PrologCompound `{ "$t": "t", functor: "-", "-": [[1, 2]] }`:
- * the functor name is in `functor`, and the arguments sit at `obj[functor][0]`.
- * Any binary functor with two integer args is accepted — `X-Y`, `wall(X, Y)`,
- * `c(X, Y)` all work.
+ * Read the arguments of a compound term from swipl-wasm's JS representation. A
+ * term `1-2` comes back as a PrologCompound `{ "$t": "t", functor: "-", "-":
+ * [[1, 2]] }`: the functor name is in `functor`, and the arguments sit at
+ * `obj[functor][0]`.
  */
-const coordOf = (term: unknown): [number, number] | null => {
+const argsOf = (term: unknown): readonly unknown[] | null => {
   if (!term || typeof term !== "object") return null;
   const obj = term as Record<string, unknown>;
-  if (obj.$t !== "t") return null;
-  const functor =
-    typeof obj.functor === "string"
-      ? obj.functor
-      : Object.keys(obj).find((key) => key !== "$t" && key !== "functor");
-  if (!functor) return null;
-  const wrapped = obj[functor];
-  const args = Array.isArray(wrapped) ? wrapped[0] : undefined;
-  if (
-    Array.isArray(args) &&
-    args.length === 2 &&
-    typeof args[0] === "number" &&
-    typeof args[1] === "number"
-  ) {
+  if (obj.$t !== "t" || typeof obj.functor !== "string") return null;
+  const wrapped = obj[obj.functor];
+  return Array.isArray(wrapped) && Array.isArray(wrapped[0]) ? wrapped[0] : null;
+};
+
+/** A binary compound with two integer args (`X-Y`, `wall(X, Y)`, …) as a coord. */
+const coordOf = (term: unknown): [number, number] | null => {
+  const args = argsOf(term);
+  if (args && args.length === 2 && typeof args[0] === "number" && typeof args[1] === "number") {
     return [args[0], args[1]];
   }
   return null;
@@ -76,4 +70,25 @@ export const solveLevel = async (level: Level, placed: WallSet): Promise<WallSet
   const program = buildSolveProgram(level, placed);
   const [first] = await queryProlog(program, "load_map, solve(Walls)");
   return first ? wallsFromBinding(first.Walls) : null;
+};
+
+/** One step of the brute-force search: a candidate wall-set and its verdict. */
+export interface TraceStep {
+  readonly walls: WallSet;
+  readonly solved: boolean;
+}
+
+/**
+ * Replay the solver's search: the wall-sets it examines, in order, each tagged
+ * with whether it seals the horse. Capped so a large board can't run away.
+ */
+export const traceSearch = async (level: Level, cap = 400): Promise<readonly TraceStep[]> => {
+  const program = buildSolveProgram(level, new Set());
+  const [first] = await queryProlog(program, `load_map, search_steps(${cap}, Steps)`);
+  const steps = first?.Steps;
+  if (!Array.isArray(steps)) return [];
+  return steps.map((stepTerm) => {
+    const [walls, solved] = argsOf(stepTerm) ?? [];
+    return { walls: wallsFromBinding(walls), solved: solved === "true" };
+  });
 };
