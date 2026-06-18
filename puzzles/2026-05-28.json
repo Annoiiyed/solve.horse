@@ -1,0 +1,29 @@
+{
+  "date": "2026-05-28",
+  "dayNumber": 150,
+  "optimalScore": 33,
+  "level": {
+    "id": "X1xLPu",
+    "map": "~~..~..~~~.\n~~.....~...\n...~.......\n~.~~~......\n.........~~\n...~~~~H.~~\n~~.........\n.~~...~~...\n.....~~...~\n~.........~\n~..~~~~..~~",
+    "budget": 10,
+    "name": "Mini Tetrominos",
+    "description": null,
+    "creatorName": "Ethan M",
+    "playCount": 42644,
+    "createdAt": 1778157510
+  },
+  "bonus": {
+    "type": "costlywalls",
+    "optimalScore": -9,
+    "level": {
+      "id": "7VxVwD",
+      "map": "~~..~..~~~.\n~~.C...~C..\n...~..C....\n~C~~~......\n....C....~~\n...~~~~H.~~\n~~C......C.\n.~~...~~...\n.C...~~C..~\n~...C....C~\n~..~~~~..~~",
+      "budget": 12,
+      "name": "Bonus Round",
+      "description": null,
+      "creatorName": "Shivers",
+      "playCount": 1,
+      "createdAt": 1778451657
+    }
+  }
+}

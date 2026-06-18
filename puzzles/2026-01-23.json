@@ -1,0 +1,16 @@
+{
+  "date": "2026-01-23",
+  "dayNumber": 25,
+  "optimalScore": 25,
+  "level": {
+    "id": "1XHKfu",
+    "map": "~~S~~.~~~.~\n~~....~~~..\n...~~.~S~.~\n~~~~S......\n~~S~~.~C~.~\n.....H.....\n~~~.~.~~.~~\n~SS.~.S~...\n~S~.~.~~S~.\n~.~......~~\n....~.~....\n~~~.~.~.~~~",
+    "budget": 11,
+    "name": "Bee Boardwalk",
+    "description": null,
+    "creatorName": "Shivers",
+    "playCount": 78584,
+    "createdAt": 1768973280
+  },
+  "bonus": null
+}

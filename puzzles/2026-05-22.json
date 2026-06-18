@@ -1,0 +1,29 @@
+{
+  "date": "2026-05-22",
+  "dayNumber": 144,
+  "optimalScore": 50,
+  "level": {
+    "id": "hatngP",
+    "map": ".~~..~~..~...\n.~...~.....~.\n.....~..~.~~.\n~...~..~.....\n~.~...~~..~..\n..~.~~~...~.~\n.~~.~.H..~~.~\n~~..~...~...~\n...~....~..~.\n...~...~..~..\n.~........~..\n~~...~~~....~\n...~~~...~.~~",
+    "budget": 8,
+    "name": "Striations",
+    "description": null,
+    "creatorName": "Ethan M",
+    "playCount": 41836,
+    "createdAt": 1778076459
+  },
+  "bonus": {
+    "type": "costlywalls",
+    "optimalScore": 13,
+    "level": {
+      "id": "c8FLVW",
+      "map": ".~~..~~.~~...\n.~...~..~C.~.\n..C..~....~~.\n~...~..~.....\n~.~...~~..~..\n..~C~~~...~.~\n.~~.~.H..~~.~\n~~..~...~C..~\n...~....~..~.\n...~...~..~C.\n.~........~..\n~~.C.~~~....~\n...~~~...~.~~",
+      "budget": 8,
+      "name": "Bonus Round",
+      "description": null,
+      "creatorName": "Shivers",
+      "playCount": 1,
+      "createdAt": 1778103388
+    }
+  }
+}

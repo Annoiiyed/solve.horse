@@ -1,0 +1,29 @@
+{
+  "date": "2026-06-16",
+  "dayNumber": 169,
+  "optimalScore": 67,
+  "level": {
+    "id": "TkW9Aw",
+    "map": "...~~.....~~\n...~...~~.~.\n~~.....~....\n~...~~.....~\n....~...~~.~\n~~......~...\n~.....H.....\n....~~....~~\n.~~.~..~~.~.\n.~.....~....\n...........~\n..~~..~~...~",
+    "budget": 14,
+    "name": "Arrows",
+    "description": null,
+    "creatorName": "Ethan M",
+    "playCount": 32951,
+    "createdAt": 1779115625
+  },
+  "bonus": {
+    "type": "lovebirds",
+    "optimalScore": 64,
+    "level": {
+      "id": "Lrf0zN",
+      "map": "...~~.....~~\n...~G..~~.~.\n~~.....~..G.\n~..U~~..S..~\n....~...~~.~\n~~....C.~...\n~..S......C.\n....~~..H.~~\n.~~.~..~~.~.\n.~.....~G...\n...C.......~\n..~~.~~.~~.~",
+      "budget": 11,
+      "name": "Bonus Round",
+      "description": null,
+      "creatorName": "Shivers",
+      "playCount": 1,
+      "createdAt": 1780532925
+    }
+  }
+}

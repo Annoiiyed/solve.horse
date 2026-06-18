@@ -1,0 +1,29 @@
+{
+  "date": "2026-06-02",
+  "dayNumber": 155,
+  "optimalScore": 46,
+  "level": {
+    "id": "6-kzFy",
+    "map": "~~.~~....~..\n.~.~~...~~.~\n...~~..~~..~\n...~..~~..~~\n~....~~~~...\n~~~....~..~.\n~....~H~.~~~\n..~.~~.....~\n..~~~....~..\n~...~~.~.~~.\n~.~....~~~..\n~~~~~......~",
+    "budget": 9,
+    "name": "Squiggly",
+    "description": null,
+    "creatorName": "Ethan M",
+    "playCount": 38490,
+    "createdAt": 1778203945
+  },
+  "bonus": {
+    "type": "lovebirds",
+    "optimalScore": 53,
+    "level": {
+      "id": "Pth_JG",
+      "map": "~~.~~....~..\n.~.~~.G.~~.~\n.C.~~..~~.C~\n...~..~~..~~\n~.H..~S~~...\n~~~..SS~..~.\n~....~S~.~~~\n..~.~~.....~\n..~~~....~C.\n~...~~.~U~~.\n~G~....~.G..\n~~~~~......~",
+      "budget": 12,
+      "name": "Bonus Round",
+      "description": null,
+      "creatorName": "Shivers",
+      "playCount": 1,
+      "createdAt": 1778452107
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "date": "2026-04-22",
+  "dayNumber": 114,
+  "optimalScore": 51,
+  "level": {
+    "id": "Qo4jEh",
+    "map": "~~~.~~.~~...~~.~~\n~S~..~.~....~....\n..~......~..~.~~~\n~.~...~.~~~......\n~H..~S~S.S.S~..0~\n~~~~~~~~~~~~~~~~~\n~...~C~C.C.C~..0.\n..~...~.~~~.....~\n~.~......~..~.~~~\n~C~..~.~....~...~\n~.~~.~~~~.~~~~.~~",
+    "budget": 11,
+    "name": "Mirror Image",
+    "description": null,
+    "creatorName": "Ethan M",
+    "playCount": 58400,
+    "createdAt": 1775960935
+  },
+  "bonus": {
+    "type": "lovebirds",
+    "optimalScore": 84,
+    "level": {
+      "id": "DyozDI",
+      "map": "~~~.~~.~..~.~~.~~\n~S~..~.~...S~..G.\n..~......~..~.~~~\n~.~...~.~~~...~..\n~0H.~.~S.G.S~..G~\n~~~~~~~~~~~~~~~~~\n~0U.~.~C.S.C~..S~\n..~...~.~~~...~..\n~.~......~..~.~~~\n~C~..~.~...G~..S~\n~.~~.~~~.~.~~~~~~",
+      "budget": 12,
+      "name": "Bonus Round",
+      "description": null,
+      "creatorName": "Shivers",
+      "playCount": 2,
+      "createdAt": 1775961241
+    }
+  }
+}

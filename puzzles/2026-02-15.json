@@ -1,0 +1,16 @@
+{
+  "date": "2026-02-15",
+  "dayNumber": 48,
+  "optimalScore": 45,
+  "level": {
+    "id": "dFRVGt",
+    "map": "~~..~~~......\n~.....~~.~~..\n~1G.......~..\n~~~~.~~..G~~~\n.~.~.0~.....~\n...~......~..\n~~.~.~~~.~~~~\n......H~...~.\n~~.~~......~.\n~..G~..~.....\n....~..~...~.\n...~~~.~..1~.\n~0.....~~.~~.\n~~~.~.~~.....",
+    "budget": 8,
+    "name": "Floorplan",
+    "description": null,
+    "creatorName": "Shivers",
+    "playCount": 68594,
+    "createdAt": 1771018310
+  },
+  "bonus": null
+}

@@ -1,0 +1,29 @@
+{
+  "date": "2026-05-06",
+  "dayNumber": 128,
+  "optimalScore": 41,
+  "level": {
+    "id": "4rI4Cr",
+    "map": "~..~.....~~~\n~..~.....~C~\n~~~~.....~.~\n......~.~...\n......~C~.~~\n......~~~...\n~~~...H.....\n~C........~~\n~~~.~..~....\n....~..~.~~~\n....~..~..C~\n~~..~~~~.~~~",
+    "budget": 8,
+    "name": "U-Turn",
+    "description": null,
+    "creatorName": "Ethan M",
+    "playCount": 49848,
+    "createdAt": 1777834292
+  },
+  "bonus": {
+    "type": "costlywalls",
+    "optimalScore": -15,
+    "level": {
+      "id": "TkB3x5",
+      "map": "~..~.~~~.~.~\n~..~.....~C~\n~..~.....~.~\n......~.~...\n......~C~.~~\n......~.~...\n~~~...H.....\n.C........~~\n~~~.~..~....\n....~..~.~~~\n....~..~..C.\n~~..~..~.~~~",
+      "budget": 11,
+      "name": "Bonus Round",
+      "description": null,
+      "creatorName": "Shivers",
+      "playCount": 1,
+      "createdAt": 1777834383
+    }
+  }
+}

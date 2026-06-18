@@ -1,0 +1,29 @@
+{
+  "date": "2026-06-06",
+  "dayNumber": 159,
+  "optimalScore": 36,
+  "level": {
+    "id": "DRycLa",
+    "map": "~...........\n....~.....~.\n.........G..\n..G....S....\n.....C..~...\n...S..S.....\n.~...SH.....\n....S...G...\n...S.C......\n..~G......S.\n....S.~.....\n.........~..",
+    "budget": 16,
+    "name": "Dry II",
+    "description": null,
+    "creatorName": "Ethan M",
+    "playCount": 38075,
+    "createdAt": 1778451200
+  },
+  "bonus": {
+    "type": "costlywalls",
+    "optimalScore": -44,
+    "level": {
+      "id": "dENEuH",
+      "map": "~...........\n....~G....~.\n.........G..\n..GC...S....\n.....C..~...\n...S..S...G.\n.~...SH.....\n.G..S...G...\n...S.C......\n..~G....C.S.\n....S.~G....\n.........~..",
+      "budget": 16,
+      "name": "Bonus Round",
+      "description": null,
+      "creatorName": "Shivers",
+      "playCount": 1,
+      "createdAt": 1778452363
+    }
+  }
+}

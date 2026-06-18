@@ -1,0 +1,16 @@
+{
+  "date": "2026-04-04",
+  "dayNumber": 96,
+  "optimalScore": 15,
+  "level": {
+    "id": "XftwlA",
+    "map": "~~~.~~~.~~~\n~....~....~\n..S.S~..S..\n.....~.S...\n~.S.......~\n~~~~.H.~~~~\n~.........~\n..S..~S.S.~\n~..S.~S.S..\n~S...~...S~\n~~~.~~~..~~",
+    "budget": 9,
+    "name": "Northeast",
+    "description": null,
+    "creatorName": "Shivers",
+    "playCount": 54681,
+    "createdAt": 1772924012
+  },
+  "bonus": null
+}

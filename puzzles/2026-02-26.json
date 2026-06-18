@@ -1,0 +1,16 @@
+{
+  "date": "2026-02-26",
+  "dayNumber": 59,
+  "optimalScore": 66,
+  "level": {
+    "id": "AtZjxQ",
+    "map": "~~..~~~.~~~~\n~S.S.......~\n..S.........\n.S.S~~.....~\n~...~~.....~\n~..........~\n....~.~~...~\n~...~~H~....\n~...........\n~.....~~...~\n..~~..~~S.S~\n~.~......S.~\n~.......S.S~\n~.~~.~.~...~",
+    "budget": 14,
+    "name": "Five of Bees",
+    "description": null,
+    "creatorName": "Shivers",
+    "playCount": 71342,
+    "createdAt": 1771476667
+  },
+  "bonus": null
+}

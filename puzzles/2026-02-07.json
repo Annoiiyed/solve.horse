@@ -1,0 +1,16 @@
+{
+  "date": "2026-02-07",
+  "dayNumber": 40,
+  "optimalScore": 48,
+  "level": {
+    "id": "-1ngUe",
+    "map": ".~~~..~..~~~~~\n.CCC.~~...~~~~\n.~~.....~.....\n.CC.~~.~~.~~..\n..~..S..~.~~~~\n~C...~~...~~~~\n.~.~SSSS~...~~\n...~~~~~~.....\n.....~~~~.H.~.\n..~~...~......\n..~~~.........\n..~~~~~...~~..\n..~~.~..~~~...\n.....~...~~...",
+    "budget": 11,
+    "name": "Swerved",
+    "description": null,
+    "creatorName": "Shivers",
+    "playCount": 67419,
+    "createdAt": 1770003405
+  },
+  "bonus": null
+}

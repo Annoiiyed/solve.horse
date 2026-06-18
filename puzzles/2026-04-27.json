@@ -1,0 +1,16 @@
+{
+  "date": "2026-04-27",
+  "dayNumber": 119,
+  "optimalScore": 219,
+  "level": {
+    "id": "9XSg_A",
+    "map": "~~~~~~~~~~~~~~~~~\n~CCCCCCCCCCCCCCC~\n~C~~...~~~~~.~~C~\n~C~...~...~...~C~\n~C~.~.....~.~..C~\n~C..~..SSS....~C~\n~C~....S0S..~~~C~\n~C~....SSS.....C~\n~C...........~~C~\n~C~.~......~..~C~\n~C~~~.~~~~.~.~~C~\n~CCCCCCCCCCCCCCH~\n~~~~~~~~~~~~~~~~~\n~..~~~~~~~~~~~..~\n~..~~~~~~~~~~~.0~",
+    "budget": 8,
+    "name": "Etchasketch",
+    "description": null,
+    "creatorName": "Ethan M",
+    "playCount": 56419,
+    "createdAt": 1776693441
+  },
+  "bonus": null
+}

@@ -1,0 +1,29 @@
+{
+  "date": "2026-04-30",
+  "dayNumber": 122,
+  "optimalScore": 33,
+  "level": {
+    "id": "9h9e9N",
+    "map": "~~...~.~.~\n~~.~~~.~..\n...C....G~\n..~~~~.~..\n~...~..~~~\n~....H~C..\n..~.~.....\n~..~..~~.~\n....C..~..\n~.~~.~...~",
+    "budget": 7,
+    "name": "Classic Mini",
+    "description": null,
+    "creatorName": "Ethan M",
+    "playCount": 53045,
+    "createdAt": 1777337707
+  },
+  "bonus": {
+    "type": "costlywalls",
+    "optimalScore": -8,
+    "level": {
+      "id": "--uHtA",
+      "map": "~~...~.~.~\n~~.~~~.~..\n...C..1.G~\n..~~~~.~..\n~.G.~..~~~\n~....H~C..\n..~0~...0.\n~.C~..~~C~\n...1C..~..\n~.~~.~...~",
+      "budget": 10,
+      "name": "Bonus Round",
+      "description": null,
+      "creatorName": "Shivers",
+      "playCount": 2,
+      "createdAt": 1777338794
+    }
+  }
+}

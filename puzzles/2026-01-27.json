@@ -1,0 +1,16 @@
+{
+  "date": "2026-01-27",
+  "dayNumber": 29,
+  "optimalScore": 38,
+  "level": {
+    "id": "RAY8n3",
+    "map": "~.~~~~~.~~\n~.S1~~0..~\n...~~~..H.\n...~1...~.\n~..~.S..S.\n..0~.~....\n~......S~.\n.....~..~~\n~G~.G~~G~~\n~.~~.~~.~~",
+    "budget": 10,
+    "name": "Crossover",
+    "description": null,
+    "creatorName": "Shivers",
+    "playCount": 81345,
+    "createdAt": 1769143510
+  },
+  "bonus": null
+}

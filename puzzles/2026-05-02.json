@@ -1,0 +1,16 @@
+{
+  "date": "2026-05-02",
+  "dayNumber": 124,
+  "optimalScore": 46,
+  "level": {
+    "id": "GzUjh2",
+    "map": "~~~~.~~~~.~~.~\n~.~...~.~.S..~\n~.......~.~~~~\n~~~.~.~S~.~..~\n~.~.~S~.~.~~.~\n..~S~~~.~.~..~\n~......H..S.~~\n~~.~.~~.~~~..~\n~.....~.~....~\n~~.~~...S.~~.~\n~S..~~.~~.~..~\n~~~.....~.~..~",
+    "budget": 9,
+    "name": "Bee Maze II",
+    "description": null,
+    "creatorName": "Ethan M",
+    "playCount": 44656,
+    "createdAt": 1777338446
+  },
+  "bonus": null
+}

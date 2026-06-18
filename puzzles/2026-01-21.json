@@ -1,0 +1,16 @@
+{
+  "date": "2026-01-21",
+  "dayNumber": 23,
+  "optimalScore": 50,
+  "level": {
+    "id": "I5gIup",
+    "map": "...~~~~~.S.~.\n~............\n~~..~~~~~..~.\n~~~.~SSS~.~~.\n~...~SSS~.~~~\n~S..~~.~~..~~\n.............\n.~~..H...~~.S\n~~~....~~~~.~\n~...~~.~~....\n.S.~~~....~~.\n....~~...~~~.\n~..~~~....~~.\n~~~~......S..\n~S~..S.~~~~~~",
+    "budget": 10,
+    "name": "Bees",
+    "description": null,
+    "creatorName": "Shivers",
+    "playCount": 78570,
+    "createdAt": 1768886448
+  },
+  "bonus": null
+}

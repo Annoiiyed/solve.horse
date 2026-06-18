@@ -1,0 +1,53 @@
+.app {
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 48px 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  min-height: 100svh;
+  box-sizing: border-box;
+}
+
+.app button {
+  align-self: flex-start;
+  font: 500 16px var(--sans);
+  padding: 10px 20px;
+  border-radius: 8px;
+  color: var(--accent);
+  background: var(--accent-bg);
+  border: 1px solid var(--accent-border);
+  cursor: pointer;
+}
+
+.app button:hover:not(:disabled) {
+  background: var(--accent);
+  color: #fff;
+}
+
+.app button:disabled {
+  opacity: 0.6;
+  cursor: progress;
+}
+
+.app button:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+.output {
+  font: 15px/1.6 var(--mono);
+  color: var(--text-h);
+  background: var(--code-bg);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 16px;
+  margin: 0;
+  white-space: pre-wrap;
+  word-break: break-word;
+  min-height: 3lh;
+}
+
+.output--error {
+  color: var(--error);
+}

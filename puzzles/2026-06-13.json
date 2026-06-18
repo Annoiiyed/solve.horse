@@ -1,0 +1,29 @@
+{
+  "date": "2026-06-13",
+  "dayNumber": 166,
+  "optimalScore": 55,
+  "level": {
+    "id": "ufia5F",
+    "map": "....~.~.....\n~.~....~~~~~\n~.~.........\n~.~.~~......\n.......~~~~~\n....~~......\n......H~~...\n~..........~\n.~~~~~.~~...\n~..........~\n........~.~.\n.~~~~~..~.~.",
+    "budget": 12,
+    "name": "=",
+    "description": null,
+    "creatorName": "Ethan M",
+    "playCount": 30540,
+    "createdAt": 1778768596
+  },
+  "bonus": {
+    "type": "costlywalls",
+    "optimalScore": -9,
+    "level": {
+      "id": "CAA8IT",
+      "map": "....~.~.....\n~.~....~~~~~\n~C~.........\n~.~.~~......\n....C..~~~~~\n....~~......\n......H~~...\n~.......C..~\n.~~~~~.~~...\n~..........~\n........~C~.\n.~~~~~..~.~.",
+      "budget": 11,
+      "name": "Bonus Round",
+      "description": null,
+      "creatorName": "Shivers",
+      "playCount": 1,
+      "createdAt": 1779112748
+    }
+  }
+}

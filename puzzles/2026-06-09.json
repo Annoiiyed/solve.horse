@@ -1,0 +1,29 @@
+{
+  "date": "2026-06-09",
+  "dayNumber": 162,
+  "optimalScore": 53,
+  "level": {
+    "id": "aRBw9u",
+    "map": "~~~.~~.~~...\n~~~.~.~.~...\n~~...~G..S..\n....~.~.~...\n.C~.~..~~...\n.~....~.....\n.~.~.....~.~\n......~..~C~\n..~...~..~~~\n..~...~...~.\n..~...~H..~.\n.~~~.~~~.~~~",
+    "budget": 8,
+    "name": "Signage",
+    "description": null,
+    "creatorName": "Ethan M",
+    "playCount": 36832,
+    "createdAt": 1778518338
+  },
+  "bonus": {
+    "type": "lovebirds",
+    "optimalScore": 58,
+    "level": {
+      "id": "nj2I58",
+      "map": "~~..~~.~~...\n~...~.~.~...\n.2...~G..S..\n....~0~.~.0.\n.C~.~..~~...\n.~....~..H..\n.~.~..~..~2~\n..U...~..~C~\n..~...~..~~~\n..~...~...~.\n...1..~...1.\n.~~~.~~~.~~~",
+      "budget": 12,
+      "name": "Bonus Round",
+      "description": null,
+      "creatorName": "Shivers",
+      "playCount": 2,
+      "createdAt": 1779112399
+    }
+  }
+}

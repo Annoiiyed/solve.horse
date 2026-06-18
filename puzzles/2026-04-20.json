@@ -1,0 +1,29 @@
+{
+  "date": "2026-04-20",
+  "dayNumber": 112,
+  "optimalScore": 22,
+  "level": {
+    "id": "UVselj",
+    "map": ".~~~......\n.~...C.~.~\n.~.~...~C~\n~~.~~.~~.~\n.......H..\n~~.~~~.~~~\n.~.~......\n.~...~S~..\n.~.~.~~~..\n.~~~......",
+    "budget": 6,
+    "name": "Mini Crossword",
+    "description": null,
+    "creatorName": "Ethan M",
+    "playCount": 63208,
+    "createdAt": 1775909574
+  },
+  "bonus": {
+    "type": "costlywalls",
+    "optimalScore": -10,
+    "level": {
+      "id": "BV9dzG",
+      "map": ".~~~......\n.~...C.~.~\n...~...~C~\n~~C~~.~~.~\n.......H..\n~~.~~~.~~~\n.~.~......\n.....~C~..\n.~C~.~.~..\n.~~~......",
+      "budget": 8,
+      "name": "Bonus Round",
+      "description": null,
+      "creatorName": "Shivers",
+      "playCount": 1,
+      "createdAt": 1775909730
+    }
+  }
+}

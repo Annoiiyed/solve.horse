@@ -1,0 +1,16 @@
+{
+  "date": "2026-02-13",
+  "dayNumber": 46,
+  "optimalScore": 43,
+  "level": {
+    "id": "6Q5iJw",
+    "map": "~~.~~..~~.~~\n~...~...~..~\n..~...~...C~\n~.~~.~~~~~.~\n..~.....S~.~\n.....~~~~~..\n~~S~.~H~....\n~~~~.....~..\n.....~~~~~.~\n.C~...~~S..~\n.C~S~....~.~\n..~~~~~~.~.~",
+    "budget": 11,
+    "name": "Bee Maze",
+    "description": null,
+    "creatorName": "Shivers",
+    "playCount": 67677,
+    "createdAt": 1770858556
+  },
+  "bonus": null
+}

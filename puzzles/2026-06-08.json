@@ -1,0 +1,16 @@
+{
+  "date": "2026-06-08",
+  "dayNumber": 161,
+  "optimalScore": 24,
+  "level": {
+    "id": "Qwmlu6",
+    "map": "~~.~.~~~.~\n.~.~......\n...C.~.~~~\n~~~~.~S...\n~....~.~.~\n..~S~H.~.~\n.~....~..~\n~..~~~C..~\n~....~~..~\n~~~......~",
+    "budget": 7,
+    "name": "Mini Maze",
+    "description": null,
+    "creatorName": "Ethan M",
+    "playCount": 37518,
+    "createdAt": 1778451546
+  },
+  "bonus": null
+}

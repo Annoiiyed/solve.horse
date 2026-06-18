@@ -1,0 +1,1199 @@
+[
+  {
+    "date": "2025-12-30",
+    "dayNumber": 1,
+    "name": "Inspiration",
+    "optimalScore": 68,
+    "hasBonus": false
+  },
+  {
+    "date": "2025-12-31",
+    "dayNumber": 2,
+    "name": "Squares",
+    "optimalScore": 90,
+    "hasBonus": false
+  },
+  {
+    "date": "2026-01-01",
+    "dayNumber": 3,
+    "name": "Strands",
+    "optimalScore": 74,
+    "hasBonus": false
+  },
+  {
+    "date": "2026-01-02",
+    "dayNumber": 4,
+    "name": "Knapsacks",
+    "optimalScore": 51,
+    "hasBonus": false
+  },
+  {
+    "date": "2026-01-03",
+    "dayNumber": 5,
+    "name": "Snail",
+    "optimalScore": 116,
+    "hasBonus": false
+  },
+  {
+    "date": "2026-01-04",
+    "dayNumber": 6,
+    "name": "Crescent",
+    "optimalScore": 77,
+    "hasBonus": false
+  },
+  {
+    "date": "2026-01-05",
+    "dayNumber": 7,
+    "name": "Fear",
+    "optimalScore": 95,
+    "hasBonus": false
+  },
+  {
+    "date": "2026-01-06",
+    "dayNumber": 8,
+    "name": "Pinball",
+    "optimalScore": 86,
+    "hasBonus": false
+  },
+  {
+    "date": "2026-01-07",
+    "dayNumber": 9,
+    "name": "Five of Cherries",
+    "optimalScore": 66,
+    "hasBonus": false
+  },
+  {
+    "date": "2026-01-08",
+    "dayNumber": 10,
+    "name": "Firewall",
+    "optimalScore": 73,
+    "hasBonus": false
+  },
+  {
+    "date": "2026-01-09",
+    "dayNumber": 11,
+    "name": "Giant Spots",
+    "optimalScore": 103,
+    "hasBonus": false
+  },
+  {
+    "date": "2026-01-10",
+    "dayNumber": 12,
+    "name": "Battery",
+    "optimalScore": 94,
+    "hasBonus": false
+  },
+  {
+    "date": "2026-01-11",
+    "dayNumber": 13,
+    "name": "Minefield",
+    "optimalScore": 54,
+    "hasBonus": false
+  },
+  {
+    "date": "2026-01-12",
+    "dayNumber": 14,
+    "name": "Trilemma",
+    "optimalScore": 204,
+    "hasBonus": false
+  },
+  {
+    "date": "2026-01-13",
+    "dayNumber": 15,
+    "name": "Cherry Catacombs",
+    "optimalScore": 87,
+    "hasBonus": false
+  },
+  {
+    "date": "2026-01-14",
+    "dayNumber": 16,
+    "name": "Narrows",
+    "optimalScore": 112,
+    "hasBonus": false
+  },
+  {
+    "date": "2026-01-15",
+    "dayNumber": 17,
+    "name": "Cherry Cocktail",
+    "optimalScore": 154,
+    "hasBonus": false
+  },
+  {
+    "date": "2026-01-16",
+    "dayNumber": 18,
+    "name": "Home",
+    "optimalScore": 108,
+    "hasBonus": false
+  },
+  {
+    "date": "2026-01-17",
+    "dayNumber": 19,
+    "name": "Dual Portals",
+    "optimalScore": 57,
+    "hasBonus": false
+  },
+  {
+    "date": "2026-01-18",
+    "dayNumber": 20,
+    "name": "Trilemma II",
+    "optimalScore": 157,
+    "hasBonus": false
+  },
+  {
+    "date": "2026-01-19",
+    "dayNumber": 21,
+    "name": "Ruins",
+    "optimalScore": 51,
+    "hasBonus": false
+  },
+  {
+    "date": "2026-01-20",
+    "dayNumber": 22,
+    "name": "Critter",
+    "optimalScore": 82,
+    "hasBonus": false
+  },
+  {
+    "date": "2026-01-21",
+    "dayNumber": 23,
+    "name": "Bees",
+    "optimalScore": 50,
+    "hasBonus": false
+  },
+  {
+    "date": "2026-01-22",
+    "dayNumber": 24,
+    "name": "Elevator",
+    "optimalScore": 79,
+    "hasBonus": false
+  },
+  {
+    "date": "2026-01-23",
+    "dayNumber": 25,
+    "name": "Bee Boardwalk",
+    "optimalScore": 25,
+    "hasBonus": false
+  },
+  {
+    "date": "2026-01-24",
+    "dayNumber": 26,
+    "name": "Striations",
+    "optimalScore": 76,
+    "hasBonus": false
+  },
+  {
+    "date": "2026-01-25",
+    "dayNumber": 27,
+    "name": "Duplex",
+    "optimalScore": 72,
+    "hasBonus": false
+  },
+  {
+    "date": "2026-01-26",
+    "dayNumber": 28,
+    "name": "Overlap",
+    "optimalScore": 76,
+    "hasBonus": false
+  },
+  {
+    "date": "2026-01-27",
+    "dayNumber": 29,
+    "name": "Crossover",
+    "optimalScore": 38,
+    "hasBonus": false
+  },
+  {
+    "date": "2026-01-28",
+    "dayNumber": 30,
+    "name": "Balance",
+    "optimalScore": 63,
+    "hasBonus": false
+  },
+  {
+    "date": "2026-01-29",
+    "dayNumber": 31,
+    "name": "Containment",
+    "optimalScore": 87,
+    "hasBonus": false
+  },
+  {
+    "date": "2026-01-30",
+    "dayNumber": 32,
+    "name": "Taiga",
+    "optimalScore": 82,
+    "hasBonus": false
+  },
+  {
+    "date": "2026-01-31",
+    "dayNumber": 33,
+    "name": "Grid",
+    "optimalScore": 44,
+    "hasBonus": false
+  },
+  {
+    "date": "2026-02-01",
+    "dayNumber": 34,
+    "name": "Snakes",
+    "optimalScore": 45,
+    "hasBonus": false
+  },
+  {
+    "date": "2026-02-02",
+    "dayNumber": 35,
+    "name": "Castle",
+    "optimalScore": 60,
+    "hasBonus": false
+  },
+  {
+    "date": "2026-02-03",
+    "dayNumber": 36,
+    "name": "Acceptance",
+    "optimalScore": 58,
+    "hasBonus": false
+  },
+  {
+    "date": "2026-02-04",
+    "dayNumber": 37,
+    "name": "Triplex",
+    "optimalScore": 82,
+    "hasBonus": false
+  },
+  {
+    "date": "2026-02-05",
+    "dayNumber": 38,
+    "name": "Fishbowl",
+    "optimalScore": 77,
+    "hasBonus": false
+  },
+  {
+    "date": "2026-02-06",
+    "dayNumber": 39,
+    "name": "Tennis Court",
+    "optimalScore": 94,
+    "hasBonus": false
+  },
+  {
+    "date": "2026-02-07",
+    "dayNumber": 40,
+    "name": "Swerved",
+    "optimalScore": 48,
+    "hasBonus": false
+  },
+  {
+    "date": "2026-02-08",
+    "dayNumber": 41,
+    "name": "4 Square",
+    "optimalScore": 70,
+    "hasBonus": false
+  },
+  {
+    "date": "2026-02-09",
+    "dayNumber": 42,
+    "name": "Hourglass",
+    "optimalScore": 55,
+    "hasBonus": false
+  },
+  {
+    "date": "2026-02-10",
+    "dayNumber": 43,
+    "name": "Hedge Maze",
+    "optimalScore": 75,
+    "hasBonus": false
+  },
+  {
+    "date": "2026-02-11",
+    "dayNumber": 44,
+    "name": "Migration",
+    "optimalScore": 74,
+    "hasBonus": false
+  },
+  {
+    "date": "2026-02-12",
+    "dayNumber": 45,
+    "name": "Alleys",
+    "optimalScore": 85,
+    "hasBonus": false
+  },
+  {
+    "date": "2026-02-13",
+    "dayNumber": 46,
+    "name": "Bee Maze",
+    "optimalScore": 43,
+    "hasBonus": false
+  },
+  {
+    "date": "2026-02-14",
+    "dayNumber": 47,
+    "name": "Heart",
+    "optimalScore": 62,
+    "hasBonus": false
+  },
+  {
+    "date": "2026-02-15",
+    "dayNumber": 48,
+    "name": "Floorplan",
+    "optimalScore": 45,
+    "hasBonus": false
+  },
+  {
+    "date": "2026-02-16",
+    "dayNumber": 49,
+    "name": "Cherry Rain",
+    "optimalScore": 85,
+    "hasBonus": false
+  },
+  {
+    "date": "2026-02-17",
+    "dayNumber": 50,
+    "name": "Ponds",
+    "optimalScore": 50,
+    "hasBonus": false
+  },
+  {
+    "date": "2026-02-18",
+    "dayNumber": 51,
+    "name": "Beehives",
+    "optimalScore": 45,
+    "hasBonus": false
+  },
+  {
+    "date": "2026-02-19",
+    "dayNumber": 52,
+    "name": "Quadrants",
+    "optimalScore": 87,
+    "hasBonus": false
+  },
+  {
+    "date": "2026-02-20",
+    "dayNumber": 53,
+    "name": "Botany Class",
+    "optimalScore": 74,
+    "hasBonus": false
+  },
+  {
+    "date": "2026-02-21",
+    "dayNumber": 54,
+    "name": "Seedlings",
+    "optimalScore": 72,
+    "hasBonus": false
+  },
+  {
+    "date": "2026-02-22",
+    "dayNumber": 55,
+    "name": "Jubilee",
+    "optimalScore": 87,
+    "hasBonus": false
+  },
+  {
+    "date": "2026-02-23",
+    "dayNumber": 56,
+    "name": "Classic",
+    "optimalScore": 91,
+    "hasBonus": false
+  },
+  {
+    "date": "2026-02-24",
+    "dayNumber": 57,
+    "name": "Traps",
+    "optimalScore": 22,
+    "hasBonus": false
+  },
+  {
+    "date": "2026-02-25",
+    "dayNumber": 58,
+    "name": "Cave",
+    "optimalScore": 113,
+    "hasBonus": false
+  },
+  {
+    "date": "2026-02-26",
+    "dayNumber": 59,
+    "name": "Five of Bees",
+    "optimalScore": 66,
+    "hasBonus": false
+  },
+  {
+    "date": "2026-02-27",
+    "dayNumber": 60,
+    "name": "Holstein",
+    "optimalScore": 91,
+    "hasBonus": false
+  },
+  {
+    "date": "2026-02-28",
+    "dayNumber": 61,
+    "name": "Invasion",
+    "optimalScore": 67,
+    "hasBonus": false
+  },
+  {
+    "date": "2026-03-01",
+    "dayNumber": 62,
+    "name": "Unlucky",
+    "optimalScore": 13,
+    "hasBonus": false
+  },
+  {
+    "date": "2026-03-02",
+    "dayNumber": 63,
+    "name": "Ruined Bridge",
+    "optimalScore": 56,
+    "hasBonus": false
+  },
+  {
+    "date": "2026-03-03",
+    "dayNumber": 64,
+    "name": "Divided Orchard",
+    "optimalScore": 98,
+    "hasBonus": false
+  },
+  {
+    "date": "2026-03-04",
+    "dayNumber": 65,
+    "name": "Portal Maze",
+    "optimalScore": 70,
+    "hasBonus": false
+  },
+  {
+    "date": "2026-03-05",
+    "dayNumber": 66,
+    "name": "Ruined Bridge II",
+    "optimalScore": 60,
+    "hasBonus": false
+  },
+  {
+    "date": "2026-03-06",
+    "dayNumber": 67,
+    "name": "Note",
+    "optimalScore": 70,
+    "hasBonus": false
+  },
+  {
+    "date": "2026-03-07",
+    "dayNumber": 68,
+    "name": "Tetromino Valley",
+    "optimalScore": 52,
+    "hasBonus": false
+  },
+  {
+    "date": "2026-03-08",
+    "dayNumber": 69,
+    "name": "Game Horse",
+    "optimalScore": 86,
+    "hasBonus": false
+  },
+  {
+    "date": "2026-03-09",
+    "dayNumber": 70,
+    "name": "Entice",
+    "optimalScore": 59,
+    "hasBonus": false
+  },
+  {
+    "date": "2026-03-10",
+    "dayNumber": 71,
+    "name": "Equals",
+    "optimalScore": 99,
+    "hasBonus": false
+  },
+  {
+    "date": "2026-03-11",
+    "dayNumber": 72,
+    "name": "Connect",
+    "optimalScore": 88,
+    "hasBonus": false
+  },
+  {
+    "date": "2026-03-12",
+    "dayNumber": 73,
+    "name": "Rectangle Factory",
+    "optimalScore": 55,
+    "hasBonus": false
+  },
+  {
+    "date": "2026-03-13",
+    "dayNumber": 74,
+    "name": "Gridiron",
+    "optimalScore": 73,
+    "hasBonus": false
+  },
+  {
+    "date": "2026-03-14",
+    "dayNumber": 75,
+    "name": "I-Beams",
+    "optimalScore": 59,
+    "hasBonus": false
+  },
+  {
+    "date": "2026-03-15",
+    "dayNumber": 76,
+    "name": "Glare",
+    "optimalScore": 73,
+    "hasBonus": false
+  },
+  {
+    "date": "2026-03-16",
+    "dayNumber": 77,
+    "name": "Ecliptic",
+    "optimalScore": 96,
+    "hasBonus": false
+  },
+  {
+    "date": "2026-03-17",
+    "dayNumber": 78,
+    "name": "Enclose",
+    "optimalScore": 80,
+    "hasBonus": true
+  },
+  {
+    "date": "2026-03-18",
+    "dayNumber": 79,
+    "name": "Texture",
+    "optimalScore": 46,
+    "hasBonus": false
+  },
+  {
+    "date": "2026-03-19",
+    "dayNumber": 80,
+    "name": "Commas",
+    "optimalScore": 68,
+    "hasBonus": false
+  },
+  {
+    "date": "2026-03-20",
+    "dayNumber": 81,
+    "name": "Fortress",
+    "optimalScore": 80,
+    "hasBonus": true
+  },
+  {
+    "date": "2026-03-21",
+    "dayNumber": 82,
+    "name": "Eruption",
+    "optimalScore": 97,
+    "hasBonus": false
+  },
+  {
+    "date": "2026-03-22",
+    "dayNumber": 83,
+    "name": "Classic II",
+    "optimalScore": 87,
+    "hasBonus": false
+  },
+  {
+    "date": "2026-03-23",
+    "dayNumber": 84,
+    "name": "Highway",
+    "optimalScore": 62,
+    "hasBonus": false
+  },
+  {
+    "date": "2026-03-24",
+    "dayNumber": 85,
+    "name": "Obstacle Course",
+    "optimalScore": 101,
+    "hasBonus": true
+  },
+  {
+    "date": "2026-03-25",
+    "dayNumber": 86,
+    "name": "Compromise",
+    "optimalScore": 100,
+    "hasBonus": false
+  },
+  {
+    "date": "2026-03-26",
+    "dayNumber": 87,
+    "name": "Floorplan",
+    "optimalScore": 98,
+    "hasBonus": true
+  },
+  {
+    "date": "2026-03-27",
+    "dayNumber": 88,
+    "name": "Confetti",
+    "optimalScore": 99,
+    "hasBonus": true
+  },
+  {
+    "date": "2026-03-28",
+    "dayNumber": 89,
+    "name": "Certificate",
+    "optimalScore": 58,
+    "hasBonus": true
+  },
+  {
+    "date": "2026-03-29",
+    "dayNumber": 90,
+    "name": "Mug",
+    "optimalScore": 80,
+    "hasBonus": false
+  },
+  {
+    "date": "2026-03-30",
+    "dayNumber": 91,
+    "name": "Question",
+    "optimalScore": 76,
+    "hasBonus": true
+  },
+  {
+    "date": "2026-03-31",
+    "dayNumber": 92,
+    "name": "Print",
+    "optimalScore": 87,
+    "hasBonus": true
+  },
+  {
+    "date": "2026-04-01",
+    "dayNumber": 93,
+    "name": "Troublemakers",
+    "optimalScore": 45,
+    "hasBonus": true
+  },
+  {
+    "date": "2026-04-02",
+    "dayNumber": 94,
+    "name": "Chain Link",
+    "optimalScore": 85,
+    "hasBonus": false
+  },
+  {
+    "date": "2026-04-03",
+    "dayNumber": 95,
+    "name": "Cherry Pathways",
+    "optimalScore": 92,
+    "hasBonus": true
+  },
+  {
+    "date": "2026-04-04",
+    "dayNumber": 96,
+    "name": "Northeast",
+    "optimalScore": 15,
+    "hasBonus": false
+  },
+  {
+    "date": "2026-04-05",
+    "dayNumber": 97,
+    "name": "Classic III",
+    "optimalScore": 93,
+    "hasBonus": true
+  },
+  {
+    "date": "2026-04-06",
+    "dayNumber": 98,
+    "name": "Downpour",
+    "optimalScore": 62,
+    "hasBonus": true
+  },
+  {
+    "date": "2026-04-07",
+    "dayNumber": 99,
+    "name": "Bubbly",
+    "optimalScore": 62,
+    "hasBonus": true
+  },
+  {
+    "date": "2026-04-08",
+    "dayNumber": 100,
+    "name": "100",
+    "optimalScore": 100,
+    "hasBonus": false
+  },
+  {
+    "date": "2026-04-09",
+    "dayNumber": 101,
+    "name": "Worthy Foe",
+    "optimalScore": 46,
+    "hasBonus": false
+  },
+  {
+    "date": "2026-04-10",
+    "dayNumber": 102,
+    "name": "Cherry Stairways",
+    "optimalScore": 82,
+    "hasBonus": true
+  },
+  {
+    "date": "2026-04-11",
+    "dayNumber": 103,
+    "name": "The Device",
+    "optimalScore": 100,
+    "hasBonus": true
+  },
+  {
+    "date": "2026-04-12",
+    "dayNumber": 104,
+    "name": "Tessellation",
+    "optimalScore": 77,
+    "hasBonus": false
+  },
+  {
+    "date": "2026-04-13",
+    "dayNumber": 105,
+    "name": "Protection",
+    "optimalScore": 77,
+    "hasBonus": true
+  },
+  {
+    "date": "2026-04-14",
+    "dayNumber": 106,
+    "name": "Mustache",
+    "optimalScore": 84,
+    "hasBonus": true
+  },
+  {
+    "date": "2026-04-15",
+    "dayNumber": 107,
+    "name": "Mystery",
+    "optimalScore": 61,
+    "hasBonus": false
+  },
+  {
+    "date": "2026-04-16",
+    "dayNumber": 108,
+    "name": "Square Dance",
+    "optimalScore": 65,
+    "hasBonus": true
+  },
+  {
+    "date": "2026-04-17",
+    "dayNumber": 109,
+    "name": "Cherry Crossing",
+    "optimalScore": 72,
+    "hasBonus": true
+  },
+  {
+    "date": "2026-04-18",
+    "dayNumber": 110,
+    "name": "Buzzy Islands",
+    "optimalScore": 96,
+    "hasBonus": false
+  },
+  {
+    "date": "2026-04-19",
+    "dayNumber": 111,
+    "name": "Pinacle",
+    "optimalScore": 101,
+    "hasBonus": true
+  },
+  {
+    "date": "2026-04-20",
+    "dayNumber": 112,
+    "name": "Mini Crossword",
+    "optimalScore": 22,
+    "hasBonus": true
+  },
+  {
+    "date": "2026-04-21",
+    "dayNumber": 113,
+    "name": "Potted Plant",
+    "optimalScore": 62,
+    "hasBonus": false
+  },
+  {
+    "date": "2026-04-22",
+    "dayNumber": 114,
+    "name": "Mirror Image",
+    "optimalScore": 51,
+    "hasBonus": true
+  },
+  {
+    "date": "2026-04-23",
+    "dayNumber": 115,
+    "name": "Gridlock",
+    "optimalScore": 87,
+    "hasBonus": true
+  },
+  {
+    "date": "2026-04-24",
+    "dayNumber": 116,
+    "name": "Bull Terrier",
+    "optimalScore": 53,
+    "hasBonus": false
+  },
+  {
+    "date": "2026-04-25",
+    "dayNumber": 117,
+    "name": "Fencing",
+    "optimalScore": 93,
+    "hasBonus": true
+  },
+  {
+    "date": "2026-04-26",
+    "dayNumber": 118,
+    "name": "Tetromino Field",
+    "optimalScore": 52,
+    "hasBonus": true
+  },
+  {
+    "date": "2026-04-27",
+    "dayNumber": 119,
+    "name": "Etchasketch",
+    "optimalScore": 219,
+    "hasBonus": false
+  },
+  {
+    "date": "2026-04-28",
+    "dayNumber": 120,
+    "name": "Dots",
+    "optimalScore": 60,
+    "hasBonus": true
+  },
+  {
+    "date": "2026-04-29",
+    "dayNumber": 121,
+    "name": "Beehive",
+    "optimalScore": 96,
+    "hasBonus": true
+  },
+  {
+    "date": "2026-04-30",
+    "dayNumber": 122,
+    "name": "Classic Mini",
+    "optimalScore": 33,
+    "hasBonus": true
+  },
+  {
+    "date": "2026-05-01",
+    "dayNumber": 123,
+    "name": "Hourglass",
+    "optimalScore": 77,
+    "hasBonus": true
+  },
+  {
+    "date": "2026-05-02",
+    "dayNumber": 124,
+    "name": "Bee Maze II",
+    "optimalScore": 46,
+    "hasBonus": false
+  },
+  {
+    "date": "2026-05-03",
+    "dayNumber": 125,
+    "name": "Sports Balls",
+    "optimalScore": 70,
+    "hasBonus": true
+  },
+  {
+    "date": "2026-05-04",
+    "dayNumber": 126,
+    "name": "Diamonds",
+    "optimalScore": 39,
+    "hasBonus": true
+  },
+  {
+    "date": "2026-05-05",
+    "dayNumber": 127,
+    "name": "Venn Diagram",
+    "optimalScore": 102,
+    "hasBonus": false
+  },
+  {
+    "date": "2026-05-06",
+    "dayNumber": 128,
+    "name": "U-Turn",
+    "optimalScore": 41,
+    "hasBonus": true
+  },
+  {
+    "date": "2026-05-07",
+    "dayNumber": 129,
+    "name": "Order of Operations",
+    "optimalScore": 52,
+    "hasBonus": true
+  },
+  {
+    "date": "2026-05-08",
+    "dayNumber": 130,
+    "name": "Circus Tent",
+    "optimalScore": 75,
+    "hasBonus": false
+  },
+  {
+    "date": "2026-05-09",
+    "dayNumber": 131,
+    "name": "Large Maze",
+    "optimalScore": 73,
+    "hasBonus": true
+  },
+  {
+    "date": "2026-05-10",
+    "dayNumber": 132,
+    "name": "Dry",
+    "optimalScore": -3,
+    "hasBonus": true
+  },
+  {
+    "date": "2026-05-11",
+    "dayNumber": 133,
+    "name": "Wet",
+    "optimalScore": 55,
+    "hasBonus": true
+  },
+  {
+    "date": "2026-05-12",
+    "dayNumber": 134,
+    "name": "Snakes II",
+    "optimalScore": 41,
+    "hasBonus": false
+  },
+  {
+    "date": "2026-05-13",
+    "dayNumber": 135,
+    "name": "Crockpot",
+    "optimalScore": 18,
+    "hasBonus": true
+  },
+  {
+    "date": "2026-05-14",
+    "dayNumber": 136,
+    "name": "River Delta",
+    "optimalScore": 64,
+    "hasBonus": true
+  },
+  {
+    "date": "2026-05-15",
+    "dayNumber": 137,
+    "name": "Planets",
+    "optimalScore": 104,
+    "hasBonus": false
+  },
+  {
+    "date": "2026-05-16",
+    "dayNumber": 138,
+    "name": "Single Line",
+    "optimalScore": 25,
+    "hasBonus": true
+  },
+  {
+    "date": "2026-05-17",
+    "dayNumber": 139,
+    "name": "( )",
+    "optimalScore": 78,
+    "hasBonus": true
+  },
+  {
+    "date": "2026-05-18",
+    "dayNumber": 140,
+    "name": "Valley",
+    "optimalScore": 53,
+    "hasBonus": false
+  },
+  {
+    "date": "2026-05-19",
+    "dayNumber": 141,
+    "name": "Stop Sign",
+    "optimalScore": 96,
+    "hasBonus": true
+  },
+  {
+    "date": "2026-05-20",
+    "dayNumber": 142,
+    "name": "Spirals",
+    "optimalScore": 63,
+    "hasBonus": true
+  },
+  {
+    "date": "2026-05-21",
+    "dayNumber": 143,
+    "name": "Fish Tank",
+    "optimalScore": 105,
+    "hasBonus": false
+  },
+  {
+    "date": "2026-05-22",
+    "dayNumber": 144,
+    "name": "Striations",
+    "optimalScore": 50,
+    "hasBonus": true
+  },
+  {
+    "date": "2026-05-23",
+    "dayNumber": 145,
+    "name": "Framing",
+    "optimalScore": 108,
+    "hasBonus": true
+  },
+  {
+    "date": "2026-05-24",
+    "dayNumber": 146,
+    "name": "Classic IV",
+    "optimalScore": 62,
+    "hasBonus": false
+  },
+  {
+    "date": "2026-05-25",
+    "dayNumber": 147,
+    "name": "Tunnels",
+    "optimalScore": 43,
+    "hasBonus": true
+  },
+  {
+    "date": "2026-05-26",
+    "dayNumber": 148,
+    "name": "Dots II",
+    "optimalScore": 36,
+    "hasBonus": true
+  },
+  {
+    "date": "2026-05-27",
+    "dayNumber": 149,
+    "name": "Avoidance",
+    "optimalScore": 50,
+    "hasBonus": false
+  },
+  {
+    "date": "2026-05-28",
+    "dayNumber": 150,
+    "name": "Mini Tetrominos",
+    "optimalScore": 33,
+    "hasBonus": true
+  },
+  {
+    "date": "2026-05-29",
+    "dayNumber": 151,
+    "name": "Capsule",
+    "optimalScore": 46,
+    "hasBonus": true
+  },
+  {
+    "date": "2026-05-30",
+    "dayNumber": 152,
+    "name": "Mini 3s",
+    "optimalScore": 35,
+    "hasBonus": false
+  },
+  {
+    "date": "2026-05-31",
+    "dayNumber": 153,
+    "name": "Scimitar",
+    "optimalScore": 80,
+    "hasBonus": true
+  },
+  {
+    "date": "2026-06-01",
+    "dayNumber": 154,
+    "name": "(A)Symmetry",
+    "optimalScore": 87,
+    "hasBonus": false
+  },
+  {
+    "date": "2026-06-02",
+    "dayNumber": 155,
+    "name": "Squiggly",
+    "optimalScore": 46,
+    "hasBonus": true
+  },
+  {
+    "date": "2026-06-03",
+    "dayNumber": 156,
+    "name": "Planks",
+    "optimalScore": 83,
+    "hasBonus": true
+  },
+  {
+    "date": "2026-06-04",
+    "dayNumber": 157,
+    "name": "Fork",
+    "optimalScore": 57,
+    "hasBonus": true
+  },
+  {
+    "date": "2026-06-05",
+    "dayNumber": 158,
+    "name": "Stairs",
+    "optimalScore": 63,
+    "hasBonus": false
+  },
+  {
+    "date": "2026-06-06",
+    "dayNumber": 159,
+    "name": "Dry II",
+    "optimalScore": 36,
+    "hasBonus": true
+  },
+  {
+    "date": "2026-06-07",
+    "dayNumber": 160,
+    "name": "Vortex",
+    "optimalScore": 123,
+    "hasBonus": true
+  },
+  {
+    "date": "2026-06-08",
+    "dayNumber": 161,
+    "name": "Mini Maze",
+    "optimalScore": 24,
+    "hasBonus": false
+  },
+  {
+    "date": "2026-06-09",
+    "dayNumber": 162,
+    "name": "Signage",
+    "optimalScore": 53,
+    "hasBonus": true
+  },
+  {
+    "date": "2026-06-10",
+    "dayNumber": 163,
+    "name": "Bee Maze III",
+    "optimalScore": 68,
+    "hasBonus": true
+  },
+  {
+    "date": "2026-06-11",
+    "dayNumber": 164,
+    "name": "Apple",
+    "optimalScore": 75,
+    "hasBonus": true
+  },
+  {
+    "date": "2026-06-12",
+    "dayNumber": 165,
+    "name": "Dry III",
+    "optimalScore": 63,
+    "hasBonus": false
+  },
+  {
+    "date": "2026-06-13",
+    "dayNumber": 166,
+    "name": "=",
+    "optimalScore": 55,
+    "hasBonus": true
+  },
+  {
+    "date": "2026-06-14",
+    "dayNumber": 167,
+    "name": "Geode",
+    "optimalScore": 145,
+    "hasBonus": true
+  },
+  {
+    "date": "2026-06-15",
+    "dayNumber": 168,
+    "name": "Classic V",
+    "optimalScore": 59,
+    "hasBonus": false
+  },
+  {
+    "date": "2026-06-16",
+    "dayNumber": 169,
+    "name": "Arrows",
+    "optimalScore": 67,
+    "hasBonus": true
+  },
+  {
+    "date": "2026-06-17",
+    "dayNumber": 170,
+    "name": "Arcs",
+    "optimalScore": 125,
+    "hasBonus": true
+  },
+  {
+    "date": "2026-06-18",
+    "dayNumber": 171,
+    "name": "Circuits",
+    "optimalScore": 77,
+    "hasBonus": true
+  }
+]

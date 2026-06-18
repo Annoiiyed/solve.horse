@@ -1,0 +1,16 @@
+{
+  "date": "2026-04-18",
+  "dayNumber": 110,
+  "optimalScore": 96,
+  "level": {
+    "id": "ZKPYRQ",
+    "map": "~~~.~.~~~~.~~~~\n~0.S~S~S~~S~SS~\n~G~~~.~S~~.G.S~\n~S~S.G1.~~~2~~~\n~~~~~CC~~S.G.S~\n~~~~~~~~~~~~~~~\n~..........~~..\n~.~.~~~....~~.~\n.....~~.H..2~.~\n~.............~\n~.~~~..~~1....~\n..~~0..~~~..~.~\n~......~~~....~\n~......~~.....~\n~.~..~....~.~~~",
+    "budget": 11,
+    "name": "Buzzy Islands",
+    "description": null,
+    "creatorName": "Shivers",
+    "playCount": 53611,
+    "createdAt": 1773271113
+  },
+  "bonus": null
+}

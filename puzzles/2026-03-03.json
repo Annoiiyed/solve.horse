@@ -1,0 +1,16 @@
+{
+  "date": "2026-03-03",
+  "dayNumber": 64,
+  "optimalScore": 98,
+  "level": {
+    "id": "xf9A2x",
+    "map": "~~~~~~.~.~~~~~~\n~.............~\n..~C.~C.G~.G~..\n~.~..~...~..~.~\n~.............~\n~.............~\n~.~C.~C.G~.G~..\n~.~..~.H.~..~.~\n..............~\n~.............~\n~.~C.~C.G~.G~.~\n~.~..~...~..~..\n..............~\n~~.~~~.~.~~~.~~",
+    "budget": 11,
+    "name": "Divided Orchard",
+    "description": null,
+    "creatorName": "Shivers",
+    "playCount": 101121,
+    "createdAt": 1772411204
+  },
+  "bonus": null
+}

@@ -1,0 +1,16 @@
+{
+  "date": "2026-05-27",
+  "dayNumber": 149,
+  "optimalScore": 50,
+  "level": {
+    "id": "dfBjKq",
+    "map": "~~~~~~1~~~~~~\n~C...~~~C..0~\n~......~....~\n~..1.~.~....~\n~~.~~~S~~~.~~\n0~.~........~\n~~.~.~~~~...~\n~......H~..S~\n~...~~.~~..~~\n~S~~~...~S.~2\n~~~.....~~.~~\n~C....2.....~\n~~~~~~~~~~~~~",
+    "budget": 7,
+    "name": "Avoidance",
+    "description": null,
+    "creatorName": "Ethan M",
+    "playCount": 40897,
+    "createdAt": 1778156578
+  },
+  "bonus": null
+}

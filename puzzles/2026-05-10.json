@@ -1,0 +1,29 @@
+{
+  "date": "2026-05-10",
+  "dayNumber": 132,
+  "optimalScore": -3,
+  "level": {
+    "id": "Mbzme6",
+    "map": "S.......S\n.S.....S.\n..SS..S..\n....SS...\n......S..\nS....HS..\n.....S.S.\n....S..S.\n...S....S\n.SS......",
+    "budget": 15,
+    "name": "Dry",
+    "description": null,
+    "creatorName": "Ethan M",
+    "playCount": 45722,
+    "createdAt": 1777924341
+  },
+  "bonus": {
+    "type": "lovebirds",
+    "optimalScore": -5,
+    "level": {
+      "id": "Wni9AM",
+      "map": "S.......S\n.S.....S.\n..SSU.S..\n....SS...\n......SG.\nS.....S..\n....HS.S.\n....S..S.\n...S....S\n.SS......",
+      "budget": 17,
+      "name": "Bonus Round",
+      "description": null,
+      "creatorName": "Shivers",
+      "playCount": 1,
+      "createdAt": 1777924444
+    }
+  }
+}

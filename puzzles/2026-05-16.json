@@ -1,0 +1,29 @@
+{
+  "date": "2026-05-16",
+  "dayNumber": 138,
+  "optimalScore": 25,
+  "level": {
+    "id": "8GO4V-",
+    "map": "~~~~~~~~..~~~~\n~C.....~..~SS~\n~~~~~~.~..~SS~\n.....~.~~~~SS~\n~~~~.~SS.....~\n~SS~.~SS.....~\n~SS~.~..~~~~.~\n~SS~.~.H.SS~.~\n~~.~.~...SS~.~\n.~.~.~...SS~.~\n~~.~.~..~..~.~\n~..~~~SS~..~.~\n~C....SS~..~G~\n~~~~~~~~~..~~~",
+    "budget": 5,
+    "name": "Single Line",
+    "description": null,
+    "creatorName": "Ethan M",
+    "playCount": 41460,
+    "createdAt": 1778003520
+  },
+  "bonus": {
+    "type": "lovebirds",
+    "optimalScore": 29,
+    "level": {
+      "id": "jPcar8",
+      "map": "~~~~~~~~..~~~~\n~C.....~..~SS~\n~~~~~..~..~SS~\n....~~.~~~~SS~\n.....~SS.....~\n~~~~U~SS..H..~\n~SS~.~..~~~~.~\n~SS~.~...SS~.~\n~~.~.~...SS~.~\n.~.~.~...SS~.~\n~~.~0~..~..~.~\n~..~~~SS~..~.~\n~C....SS~GG~0~\n~~~~~~~~~..~~~",
+      "budget": 6,
+      "name": "Bonus Round",
+      "description": null,
+      "creatorName": "Shivers",
+      "playCount": 2,
+      "createdAt": 1778003683
+    }
+  }
+}

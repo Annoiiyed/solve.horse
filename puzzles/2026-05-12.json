@@ -1,0 +1,16 @@
+{
+  "date": "2026-05-12",
+  "dayNumber": 134,
+  "optimalScore": 41,
+  "level": {
+    "id": "Fr6BxZ",
+    "map": "...~~....~~~\n~.~~...~~~..\n~0...~.~1...\n~~~~~~.~~~.~\n.........~.~\n~..~~.~..~.~\n~~.1~.~~.~.~\n.~.~~..~....\n~..~.H.~~.~~\n~.~~.....0~.\n.......~~.~.\n.~~~..~~....",
+    "budget": 8,
+    "name": "Snakes II",
+    "description": null,
+    "creatorName": "Ethan M",
+    "playCount": 47571,
+    "createdAt": 1778102067
+  },
+  "bonus": null
+}

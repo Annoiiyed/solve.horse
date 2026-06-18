@@ -1,0 +1,16 @@
+{
+  "date": "2026-05-30",
+  "dayNumber": 152,
+  "optimalScore": 35,
+  "level": {
+    "id": "a418sT",
+    "map": "..~.....~.\n.~S~.~.C~~\n.....~..S.\n.....~.~..\n.~........\n.C~..H.~.~\n~..~....~.\n..S..~....\n.~..~C....\n~~.~..~~~.",
+    "budget": 10,
+    "name": "Mini 3s",
+    "description": null,
+    "creatorName": "Ethan M",
+    "playCount": 34774,
+    "createdAt": 1778202402
+  },
+  "bonus": null
+}

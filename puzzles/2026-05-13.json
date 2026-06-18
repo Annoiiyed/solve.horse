@@ -1,0 +1,29 @@
+{
+  "date": "2026-05-13",
+  "dayNumber": 135,
+  "optimalScore": 18,
+  "level": {
+    "id": "_GDray",
+    "map": "......~~~......\n...~~~~~~~~~...\n.~~~~~~~~~~~~~.\n..~~SS.S.S.~~..\n..~S...G..SC~..\n....C~S~S~.S~..\n..~..~~~~~..~..\n..~...S...C.~..\n..~..C.S..S.~..\n..~.S..H...S...\n..~S..S..S.....\n..~SC..SS.C.~..\n~~~~~~~~~~~~~~~",
+    "budget": 9,
+    "name": "Crockpot",
+    "description": null,
+    "creatorName": "Ethan M",
+    "playCount": 48633,
+    "createdAt": 1777992526
+  },
+  "bonus": {
+    "type": "lovebirds",
+    "optimalScore": 45,
+    "level": {
+      "id": "cvhg4U",
+      "map": "......~~~......\n...~~~~~~~~~...\n.~~~~~~~~~~~~~.\n.0~~SS.S.S.~~..\n..~S...G..SC~..\n..U.C~G~G~.S~..\n..~..~~~~~..~..\n..~...SS..C.~..\n..~..C.S..S.~..\n..~.S......S...\n..~S..C..S..H..\n..~SS..SS.C.~0.\n~~~~~~~~~~~~~~~",
+      "budget": 12,
+      "name": "Bonus Round",
+      "description": null,
+      "creatorName": "Shivers",
+      "playCount": 1,
+      "createdAt": 1778102549
+    }
+  }
+}

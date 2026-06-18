@@ -1,0 +1,16 @@
+{
+  "date": "2026-01-07",
+  "dayNumber": 9,
+  "optimalScore": 66,
+  "level": {
+    "id": "ZtiI9g",
+    "map": "~~..~~~.~~~~\n~C.C.......~\n..C......~..\n.C.C~~..~~.~\n~.~.~~.....~\n~..........~\n....~.~~...~\n~...~~H~....\n~...........\n~.....~~...~\n..~~..~~C.C~\n~.~......C.~\n~.......C.C~\n~.~~.~.~...~",
+    "budget": 12,
+    "name": "Five of Cherries",
+    "description": null,
+    "creatorName": "Shivers",
+    "playCount": 119455,
+    "createdAt": 1767684975
+  },
+  "bonus": null
+}

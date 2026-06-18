@@ -1,0 +1,16 @@
+{
+  "date": "2026-06-12",
+  "dayNumber": 165,
+  "optimalScore": 63,
+  "level": {
+    "id": "2mHCbM",
+    "map": "....C.C.C...\nC...C.C.....\n.....C..C..C\n..C.....C.C.\n...C.......C\n....C.H.C...\nCC..........\n..C.C.....C.\n..C.C......C\n.C..C.......\nC......CC.CC\n....C.C.....",
+    "budget": 20,
+    "name": "Dry III",
+    "description": null,
+    "creatorName": "Ethan",
+    "playCount": 33965,
+    "createdAt": 1778768459
+  },
+  "bonus": null
+}

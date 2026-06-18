@@ -1,0 +1,16 @@
+{
+  "date": "2026-04-24",
+  "dayNumber": 116,
+  "optimalScore": 53,
+  "level": {
+    "id": "Jb57cN",
+    "map": "~...........~\n~~.........~~\n~.~...H...~.~\n....~~~.~...~\n~.........C..\n~..~~...~~..~\n....~.G.~....\n~...........~\n.~...........\n.....~~~..~..\n~..~.S~..~..~\n~~..~~~~...~~",
+    "budget": 11,
+    "name": "Bull Terrier",
+    "description": null,
+    "creatorName": "Ethan M",
+    "playCount": 55399,
+    "createdAt": 1776604686
+  },
+  "bonus": null
+}
