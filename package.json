@@ -13,7 +13,7 @@
   "dependencies": {
     "react": "^19.2.6",
     "react-dom": "^19.2.6",
-    "tau-prolog": "^0.3.4"
+    "swipl-wasm": "^8.0.1"
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",
