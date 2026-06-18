@@ -9,7 +9,7 @@ import {
   type Level,
 } from "./levels";
 import { LevelMenu } from "./ui/LevelMenu";
-import { LevelCanvas } from "./render/LevelCanvas";
+import { Board } from "./ui/Board";
 import "./App.css";
 
 interface LoadError {
@@ -70,10 +70,7 @@ export const App = () => {
                   {ready.level.budget} · optimal {ready.level.optimalScore}
                 </p>
               </header>
-              <LevelCanvas
-                grid={ready.grid}
-                label={`${ready.level.name}: ${ready.grid.width} by ${ready.grid.height} level map`}
-              />
+              <Board key={ready.level.date} level={ready.level} grid={ready.grid} />
             </>
           ) : showError ? (
             <p className="stage-error">{showError.message}</p>

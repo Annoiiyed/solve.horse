@@ -41,12 +41,19 @@ const renderSolution = (bindings: Record<string, unknown>): string => {
   return entries.map(([name, value]) => `${name} = ${renderValue(value)}`).join(", ");
 };
 
+/** One solution: variable name -> swipl-wasm's JS representation of the term. */
+export type Bindings = Record<string, unknown>;
+
 /**
- * Consult `program`, run `goal`, and return every solution as text (one per
- * line), `false.` when there are none. Rejects on a Prolog exception; callers
- * handle that at their boundary.
+ * Consult `program`, run `goal`, and return every solution as a structured
+ * bindings object. This is the seam for the solver: a goal like
+ * `load_map, solve(Walls)` yields `[{ Walls: [...] }]`, ready to convert into
+ * domain values. Rejects on a Prolog exception.
  */
-export const runProlog = async (program: string, goal: string): Promise<string> => {
+export const queryProlog = async (
+  program: string,
+  goal: string,
+): Promise<readonly Bindings[]> => {
   const swipl = await getModule();
   swipl.FS.writeFile(PROGRAM_PATH, program);
 
@@ -54,12 +61,17 @@ export const runProlog = async (program: string, goal: string): Promise<string> 
     throw new Error(`Failed to consult program`);
   }
 
-  // With no callback, forEach resolves to an array of all solutions, each a
-  // bindings object (variable name -> JS value). It rejects on a Prolog error.
-  const answers = (await swipl.prolog.forEach(asClause(goal))) as Array<
-    Record<string, unknown>
-  >;
-  const solutions = answers.slice(0, MAX_SOLUTIONS).map(renderSolution);
+  // With no callback, forEach resolves to an array of all solutions.
+  return (await swipl.prolog.forEach(asClause(goal))) as Bindings[];
+};
 
+/**
+ * Consult `program`, run `goal`, and return every solution as text (one per
+ * line), `false.` when there are none. A human-readable view over
+ * {@link queryProlog}; for solver output prefer the structured form.
+ */
+export const runProlog = async (program: string, goal: string): Promise<string> => {
+  const answers = await queryProlog(program, goal);
+  const solutions = answers.slice(0, MAX_SOLUTIONS).map(renderSolution);
   return solutions.length > 0 ? solutions.join("\n") : "false.";
 };
