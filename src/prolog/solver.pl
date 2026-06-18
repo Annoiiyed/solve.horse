@@ -1,30 +1,15 @@
-% ===========================================================================
-% solve.horse — solver entry point (STUB — replace solve/1 with your algorithm)
-%
-% Contract with the UI:
-%   solve(Walls) must bind Walls to a list of X-Y pairs — the cells to turn
-%   into walls. The UI renders them on the board.
-%
-% Available after `load_map` (the UI calls `load_map, solve(Walls)`):
-%   cell(X, Y, Glyph)   every cell        grid_size(W, H)   board size
-%   horse(X, Y)         the horse         placed_wall(X, Y) the human's attempt
-%
-% The full SWI library is available, including CLP(FD):
-%   :- use_module(library(clpfd)).
-%
-% ---------------------------------------------------------------------------
-% This stub just fences the horse's four orthogonal grass neighbours — a
-% trivial seal that proves the TS <-> Prolog pipe end to end. It ignores the
-% budget and tile values entirely. Delete it and write the real thing.
-% ---------------------------------------------------------------------------
-
 :- dynamic(placed_wall/2).
 
+% This is a brute-force solution. Breaks down if more than one wall is needed.
 solve(Walls) :-
-    horse(HX, HY),
-    findall(X-Y,
-            ( member(DX-DY, [ (-1)-0, 1-0, 0-(-1), 0-1 ]),
-              X is HX + DX,
-              Y is HY + DY,
-              cell(X, Y, '.') ),
-            Walls).
+    findall(Cell, wallable(Cell), Candidates),
+    budget(Budget),
+    between(0, Budget, K),
+    n_subset(K, Candidates, Walls),
+    is_solved(Walls),
+    !.
+
+% n_subset(K, List, Subset): Subset is a size-K subset of List, order preserved.
+n_subset(0, _, []) :- !.
+n_subset(K, [X | Xs], [X | Ys]) :- K > 0, K1 is K - 1, n_subset(K1, Xs, Ys).
+n_subset(K, [_ | Xs], Ys) :- K > 0, n_subset(K, Xs, Ys).

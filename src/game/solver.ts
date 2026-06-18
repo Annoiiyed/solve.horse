@@ -1,5 +1,6 @@
 import { queryProlog } from "../engine";
 import { buildIngestProgram } from "../prolog/ingest";
+import rulesSource from "../prolog/rules.pl?raw";
 import solverSource from "../prolog/solver.pl?raw";
 import type { Level } from "../levels";
 import { cellKey, type WallSet } from "./enclosure";
@@ -53,9 +54,18 @@ const placedWallFacts = (placed: WallSet): string =>
     })
     .join("\n");
 
-/** Assemble the full solving program: ingest grammar + solver + the attempt. */
+/**
+ * Assemble the full solving program: ingest grammar + game rules + solver +
+ * the budget and the current attempt as facts.
+ */
 export const buildSolveProgram = (level: Level, placed: WallSet): string =>
-  `${buildIngestProgram(level)}\n${solverSource}\n${placedWallFacts(placed)}\n`;
+  [
+    buildIngestProgram(level),
+    rulesSource,
+    solverSource,
+    `budget(${level.budget}).`,
+    placedWallFacts(placed),
+  ].join("\n");
 
 /**
  * Run the Prolog solver for `level` and return its proposed walls, or null if
