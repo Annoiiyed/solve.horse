@@ -59,9 +59,17 @@ export const Board = ({ level, grid }: BoardProps) => {
     }
   };
 
-  const status = enclosure.enclosed
-    ? `Horse enclosed — ${enclosure.region.size} ${enclosure.region.size === 1 ? "cell" : "cells"} sealed`
-    : "Horse not enclosed yet";
+  // Score is the enclosed-cell count for now; once value tiles are scored this
+  // is where that calculation will live.
+  const score = enclosure.enclosed ? enclosure.region.size : null;
+  const optimal = score !== null && score >= level.optimalScore;
+
+  const status =
+    score === null
+      ? "Horse not enclosed yet"
+      : optimal
+        ? `★ Optimal — ${score} / ${level.optimalScore}`
+        : `✓ Enclosed — ${score} / ${level.optimalScore}`;
   const atBudget = used >= budget;
 
   return (
@@ -72,16 +80,16 @@ export const Board = ({ level, grid }: BoardProps) => {
         walls={walls}
         region={enclosure.region}
         sealed={enclosure.enclosed}
+        optimal={optimal}
         cursor={cursor}
         onToggle={toggle}
         onMoveCursor={(x, y) => setCursor({ x, y })}
       />
       <div className="board-bar">
         <p
-          className={`board-status${enclosure.enclosed ? " board-status--ok" : ""}`}
+          className={`board-status${enclosure.enclosed ? " board-status--ok" : ""}${optimal ? " board-status--optimal" : ""}`}
           aria-live="polite"
         >
-          {enclosure.enclosed ? "✓ " : ""}
           {status}
         </p>
         <p className={`board-budget${atBudget ? " board-budget--full" : ""}`}>

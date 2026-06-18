@@ -16,6 +16,7 @@ const PALETTE = {
   wallMortar: "#6f3f25",
   regionOpen: "rgba(242, 242, 242, 0.16)",
   regionSealed: "rgba(247, 208, 96, 0.34)",
+  regionOptimal: "rgba(122, 224, 134, 0.42)",
   cursor: "#f2f2f2",
 } as const;
 
@@ -61,13 +62,19 @@ const drawTerrain = (ctx: CanvasRenderingContext2D, grid: Grid): void => {
   }
 };
 
-/** Tint the horse's reachable pen; gold once it's sealed, faint while it leaks. */
+/** Tint the horse's reachable pen: faint while it leaks, gold once sealed,
+ * green when the sealed area hits the level's optimum. */
 const drawRegion = (
   ctx: CanvasRenderingContext2D,
   region: ReadonlySet<string>,
   sealed: boolean,
+  optimal: boolean,
 ): void => {
-  ctx.fillStyle = sealed ? PALETTE.regionSealed : PALETTE.regionOpen;
+  ctx.fillStyle = optimal
+    ? PALETTE.regionOptimal
+    : sealed
+      ? PALETTE.regionSealed
+      : PALETTE.regionOpen;
   for (const key of region) {
     const [x, y] = key.split(",").map(Number);
     if (x !== undefined && y !== undefined) ctx.fillRect(x * TILE, y * TILE, TILE, TILE);
@@ -126,6 +133,8 @@ interface LevelCanvasProps {
   readonly region: ReadonlySet<string>;
   /** Whether the region is sealed (drives the region tint colour). */
   readonly sealed: boolean;
+  /** Whether the sealed area reaches the level's optimum. */
+  readonly optimal: boolean;
   /** Highlighted keyboard cursor cell, or null when not focused. */
   readonly cursor: Coord | null;
   readonly onToggle: (x: number, y: number) => void;
@@ -142,6 +151,7 @@ export const LevelCanvas = ({
   walls,
   region,
   sealed,
+  optimal,
   cursor,
   onToggle,
   onMoveCursor,
@@ -172,11 +182,11 @@ export const LevelCanvas = ({
     ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
 
     drawTerrain(ctx, grid);
-    drawRegion(ctx, region, sealed);
+    drawRegion(ctx, region, sealed, optimal);
     drawWalls(ctx, walls);
     if (horse) drawHorse(ctx, grid, horse);
     if (cursor) drawCursor(ctx, cursor);
-  }, [grid, walls, region, sealed, cursor, horse]);
+  }, [grid, walls, region, sealed, optimal, cursor, horse]);
 
   const cellFromEvent = (event: React.MouseEvent): Coord | null => {
     const canvas = canvasRef.current;
