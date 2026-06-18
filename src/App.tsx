@@ -1,10 +1,8 @@
 import { useEffect, useMemo, useState } from "react";
-import { catalogue, loadLevel, parseGrid, type Level } from "./levels";
+import { defaultDate, loadLevel, parseGrid, type Level } from "./levels";
 import { LevelMenu } from "./ui/LevelMenu";
 import { LevelCanvas } from "./render/LevelCanvas";
 import "./App.css";
-
-const FIRST_DATE = catalogue[0]?.date ?? "";
 
 interface LoadError {
   readonly date: string;
@@ -12,7 +10,7 @@ interface LoadError {
 }
 
 export const App = () => {
-  const [selectedDate, setSelectedDate] = useState(FIRST_DATE);
+  const [selectedDate, setSelectedDate] = useState(defaultDate);
   const [level, setLevel] = useState<Level | null>(null);
   const [error, setError] = useState<LoadError | null>(null);
 
